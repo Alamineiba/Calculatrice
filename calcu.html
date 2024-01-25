@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    
+   <div class="calculatrice">
+        <div class="title-toggle">
+            <h3>Calculator</h3>
+            <div class="theme-toggle">
+               <h3>Theme</h3>
+               <div class="toggle">
+                <div class="toggle-number">
+                    <p class="toggle-1" id="one">1</p>
+                    <p class="toggle-2" id="two">2</p>
+                    <p class="toggle-3" id="three">3</p>
+                </div>
+                <div class="toggle-box">
+                    <div class="toggle-ball" id="ball"></div>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="ecran">
+            <div class="first" data-first>        
+            </div>
+            <div class="second" data-second>
+            </div>
+        </div>
+       <div class="keys">
+        <input type="button" value="7" data-number>
+        <input type="button" value="8" data-number>
+        <input type="button" value="9" data-number>
+        <input type="button" value="DEL" data-delete class="delete" id="delete">
+        <input type="button" value="4" data-number>
+        <input type="button" value="5" data-number>
+        <input type="button" value="6" data-number>
+        <input type="button" value="+" data-operator>
+        <input type="button" value="1" data-number>
+        <input type="button" value="2" data-number>
+        <input type="button" value="3" data-number>
+        <input type="button" value="-" data-operator>
+        <input type="button" value="." data-number>
+        <input type="button" value="0" data-number>
+        <input type="button" value="/" data-operator>
+        <input type="button" value="*" data-operator>
+        <input type="button" value="RESET" data-reset class="span-two reset" id="reset">
+        <input type="button" value="=" data-equals class="span-two equal">
+       </div>
+    </div>
+   
+
+<script src="calcu.js"></script> 
+</body>
+</html>
